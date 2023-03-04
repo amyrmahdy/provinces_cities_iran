@@ -13,5 +13,6 @@ ps: There was older version using googletrans library that was not accurate enou
 
 
 Author: amyrmahdy
+
 Date: 3 March 2023
 

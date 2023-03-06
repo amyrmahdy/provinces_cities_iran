@@ -4,9 +4,11 @@ This repository contains a JSON file named "province_city.json" that includes al
 
 ## **Data Sources**
 
+The data used in this project was scraped from multiple sources, including wikipedia and other reliable online resources. However, due to the constantly changing nature of the Iranian cities and provinces :D , some cities may have been inadvertently omitted from the dataset or may have been assigned to the wrong province. In such cases, we encourage users to inform us of any mistakes or omissions so that we can update the dataset accordingly.
+
+
 
 ## **Usage**
-The data used in this project was scraped from multiple sources, including wikipedia and other reliable online resources. However, due to the constantly changing nature of the Iranian cities and provinces :D , some cities may have been inadvertently omitted from the dataset or may have been assigned to the wrong province. In such cases, we encourage users to inform us of any mistakes or omissions so that we can update the dataset accordingly.
 
 The JSON file contains an array of objects, where each object represents a province and includes the following properties:
 
@@ -24,11 +26,11 @@ The JSON file contains an array of objects, where each object represents a provi
 
 If you would like to contribute to this project, you can do so by opening a pull request. We welcome any contributions that improve the accuracy and completeness of the dataset, such as adding missing cities or correcting existing data.
 
-## **Known Issues**
+## **Known Issues & Manual adjustments**
 
 Some cities may have been assigned to the wrong province or may be missing from the dataset. We encourage users to inform us of any such issues so that we can update the dataset accordingly.
 Due to the constantly changing nature of the Iranian cities and provinces :D, some cities may have been inadvertently omitted from the dataset or may have been assigned to the wrong province. If you notice any such issues, please inform us so that we can update the dataset accordingly.
-These city names in the "province_city.json" may have had some issues, but they have been fixed. Please refer to the updated list of city names below:
+These city names in the "province_city.json" may have had some issues, but they have been fixed manualy. Please refer to the updated list of city names below:
 [mohr](https://wikipedia-lurkmore-com.translate.goog/wiki/Mohr,_Fars?lang=en&_x_tr_sl=auto&_x_tr_tl=fa&_x_tr_hl=fa), 
 [senderk](https://wikipedia-lurkmore-com.translate.goog/wiki/Senderk?lang=en&_x_tr_sl=auto&_x_tr_tl=fa&_x_tr_hl=fa), 
 [hojedk](https://wikipedia-lurkmore-com.translate.goog/wiki/Hojedk?lang=en&_x_tr_sl=auto&_x_tr_tl=fa&_x_tr_hl=fa), 
@@ -134,13 +136,8 @@ These city names in the "province_city.json" may have had some issues, but they 
 
 
 
-## **Manual adjustments**
+## **License**
 
-There are some cities that should be handled manually because they are changed in recent years. You can find their names below:
-
-Dehdasht city in Kohgiluyeh and Boyer-Ahmad province should be moved to Chaharmahal and Bakhtiari province.
-Saveh city in Markazi province should be moved to Tehran province.
-License
 This dataset is released under the MIT License. Feel free to use it for any purpose, commercial or non-commercial. If you use this dataset, we would appreciate it if you could provide a link back to this repository.
 
 

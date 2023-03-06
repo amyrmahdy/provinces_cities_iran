@@ -4,17 +4,21 @@ This repository contains a JSON file named "province_city.json" that includes al
 
 ## **Data Sources**
 
-The data used in this project was scraped from multiple sources, including wikipedia and other reliable online resources. However, due to the constantly changing nature of the Iranian cities and provinces :D , some cities may have been inadvertently omitted from the dataset or may have been assigned to the wrong province. In such cases, we encourage users to inform us of any mistakes or omissions so that we can update the dataset accordingly.
 
 ## **Usage**
+The data used in this project was scraped from multiple sources, including wikipedia and other reliable online resources. However, due to the constantly changing nature of the Iranian cities and provinces :D , some cities may have been inadvertently omitted from the dataset or may have been assigned to the wrong province. In such cases, we encourage users to inform us of any mistakes or omissions so that we can update the dataset accordingly.
 
 The JSON file contains an array of objects, where each object represents a province and includes the following properties:
 
-province-en: The name of the province in English
-province-fa: The name of the province in Persian
-cities: An array of objects, where each object represents a city within the province and includes the following properties:
-city-en: The name of the city in English
-city-fa: The name of the city in Persian
+- province-en: The name of the province in English
+
+- province-fa: The name of the province in Persian
+
+- cities: An array of objects, where each object represents a city within the province and includes the following properties:
+
+- city-en: The name of the city in English
+
+- city-fa: The name of the city in Persian
 
 ## **Contributing**
 
